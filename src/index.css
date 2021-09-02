@@ -18,6 +18,7 @@ video {
   border-radius: 15px;
   padding: 20px;
   margin: 20px auto;
+  box-shadow: 0.5px 2px 8px #778349;
 }
 .no_selected_video {
   background-image: url("assets/no-video.svg");
@@ -26,7 +27,7 @@ video {
 }
 body {
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 0px;
 }
 .button {
   border-radius: 15px;
@@ -43,6 +44,7 @@ body {
 .button:hover {
   transform: scale(1.08);
   cursor: pointer;
+  box-shadow: 0.5px 2px 8px #778349;
 }
 .hide {
   display: none;

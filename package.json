@@ -1,8 +1,8 @@
 {
-  "name": "tron-forge",
-  "productName": "tron-forge",
+  "name": "tord-s_sr",
+  "productName": "@tord-s Screen Recorder",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Allows you to record any tab or screen",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -12,7 +12,7 @@
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
-  "author": "jeffd23",
+  "author": "tord-s",
   "license": "MIT",
   "config": {
     "forge": {
