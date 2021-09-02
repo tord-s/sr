@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>@tord-s Screen Recorder</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="render.js"></script>
+  </head>
+  <body class="content">
+    <h1 class="main_heading">@tord-s Screen Recorder</h1>
+
+    <div class="recording" id="rec_now">
+      <div class="red_dot"></div>
+      <h3>Recording</h3>
+    </div>
+    <video id="recording_video" class="no_selected_video"></video>
+
+    <div class="controls">
+      <button id="startBtn" class="button is-primary">Start</button>
+      <button id="stopBtn" class="button is-warning">Stop</button>
+
+      <button id="videoSelectBtn" class="button is-text">
+        Choose a Video Source
+      </button>
+    </div>
+  </body>
+</html>
