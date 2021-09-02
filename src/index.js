@@ -14,7 +14,8 @@ const createWindow = () => {
     webPreferences: {
       nodeIntegration: true
     },
-    frame: false 
+    frame: false,
+    icon:'assets/avatar.jpg'
   });
 
   // and load the index.html of the app.

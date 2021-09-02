@@ -77,6 +77,13 @@ body {
     box-shadow: #890b01;
   }
 }
+
+#stopwatch {
+  min-width: 100px;
+  text-align: left;
+  margin-left: 10px;
+  color: #ebecee;
+}
 /* Ivory
 #EBECEE
 
